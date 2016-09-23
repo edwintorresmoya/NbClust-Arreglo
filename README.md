@@ -1,6 +1,6 @@
 # NbClust-Arreglo
 
-
+{
 lista.methods = c("kl", "ch", "hartigan","mcclain", "gamma", "gplus",
                   "tau", "dunn", "sdindex", "sdbw", "cindex", "silhouette",
                   "ball","ptbiserial", "gap","frey")
@@ -21,3 +21,4 @@ for(i in 1:length(lista.methods)){
 }}
 
 tabla
+}
